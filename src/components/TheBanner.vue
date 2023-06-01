@@ -6,7 +6,7 @@
         <div class="banner__texts">
             <h1>More than just shorter links</h1>
             <p>Build your brand's recognition and get detailed insights on how your link are performing.</p>
-            <button class="btn-primary">Get Started</button>
+            <a href="#shorter-link" class="btn-primary">Get Started</a>
         </div>
     </div>
 </template>

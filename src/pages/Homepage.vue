@@ -38,14 +38,18 @@ export default {
     data(){
         return {
             index:0,
-            phrase:''
+            phrase:'',
+            nom: "Ciccarello",
+            prenom: "Pietro"
         }
     },
     computed:{
-        ...mapState(['ciao', 'prova'])
+        ...mapState(['link']),
     },
     methods:{
-    
+     consoleNom(){
+        console.log(this.nom)
+     }
     }
 }
 </script>

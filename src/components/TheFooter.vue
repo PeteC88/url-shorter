@@ -1,6 +1,7 @@
 <template>
     <footer class="footer">
-        <h1 class="footer__title">Shortly</h1>
+        <div class="footer__container">
+            <h1 class="footer__title">Shortly</h1>
         <div class="footer__features footer__section">
             <h1 class="footer__list-title">Features</h1>
             <ul>
@@ -32,5 +33,7 @@
             <img src="../assets/imgs/icon-pinterest.svg" alt="icon-pinterest">
             <img src="../assets/imgs/icon-instagram.svg" alt="icon-instagram">
         </div>
+        </div>
+        
     </footer>
 </template>

@@ -7,7 +7,9 @@ export default createStore({
 namespaced:true,
 state(){
     return {
-        links:[]
+        links:[],
+        isMobileMenuOpened: false,
+        isErrorPopupOpened: false,
     }
 },
 actions,

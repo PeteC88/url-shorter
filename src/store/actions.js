@@ -15,7 +15,13 @@ export default{
             }
             commit('shorterLinkMutation', linkList)
         }catch(error){
-            console.log(error);
+            commit('togglePopupMutation')
         }
+    },
+    toggleMobileMenuAction({commit}){
+        commit('toggleMobileMenuMutation');
+    },
+    togglePopupAction({commit}){
+        commit('togglePopupMutation')
     }
 }

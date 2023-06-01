@@ -1,19 +1,20 @@
 <template>
+  <ErrorLink />
   <TheHeader />
   <Homepage />
   <TheFooter />
 </template>
 
 <script>
-import TheHeader from './components/TheHeader.vue'
-import Homepage from './pages/Homepage.vue' 
-import TheFooter from './components/TheFooter.vue' 
-
-
+import TheHeader from './components/TheHeader.vue';
+import Homepage from './pages/Homepage.vue';
+import TheFooter from './components/TheFooter.vue';
+import ErrorLink from './components/ErrorLink.vue';
 
 export default {
   name: 'App',
   components: {
+    ErrorLink,
     TheHeader,
     Homepage,
     TheFooter
