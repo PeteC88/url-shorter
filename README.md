@@ -1,4 +1,4 @@
-# url-shorter-project
+# url-shorter
 
 ## Project setup
 ```
