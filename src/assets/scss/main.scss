@@ -349,7 +349,11 @@ html{
         & a {
             @include button;
             text-align: center;
-            margin: 0;
+            margin-inline: auto;
+
+            @include for-tablet-landscape-up(){
+                margin: 0;
+            }
             &:hover{
                background-color: $cyran-primary-active;
             }
