@@ -140,7 +140,7 @@ html{
     & nav:nth-child(1){
         height: 60%;
         border-radius: 10px 10px 0 0 ;
-
+        
         &::after{
             content: "";
             display: block;
@@ -182,6 +182,10 @@ html{
         gap: 1.6rem;
         height: 100%;
         font-weight: bold;
+
+        & li a {
+            color:white;
+        }
     }
 
     & nav:nth-child(2){
